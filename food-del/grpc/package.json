@@ -1,0 +1,14 @@
+{
+  "name": "food-grpc",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.0",
+    "@grpc/proto-loader": "^0.7.13",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.6.0"
+  }
+}
