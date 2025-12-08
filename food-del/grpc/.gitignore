@@ -32,7 +32,6 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
-
 #temporales
 coverage/
 *.local
