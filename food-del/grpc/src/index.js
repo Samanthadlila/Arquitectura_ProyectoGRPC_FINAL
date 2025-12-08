@@ -27,7 +27,7 @@ async function main() {
   const server = new grpc.Server();
   server.addService(proto.FoodService.service, handlers);
 
-  const port = process.env.GRPC_PORT || 50051;
+  const port = process.env.GRPC_PORT || 5051;
   server.bindAsync(
     `0.0.0.0:${port}`,
     grpc.ServerCredentials.createInsecure(),
