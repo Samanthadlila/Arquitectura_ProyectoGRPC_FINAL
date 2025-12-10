@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+mongoose.set(`debug`, true);
+
 export const connectDB = async () => {
   try {
     await mongoose.connect("mongodb+srv://root:1234@cluster0.uub6rlz.mongodb.net/food-del?retryWrites=true&w=majority", {

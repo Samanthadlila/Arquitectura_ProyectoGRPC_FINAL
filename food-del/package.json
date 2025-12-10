@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "start:grpc": "node grpc/server.js",
+    "start:rest": "nodemon backend/server.js",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.2",
+    "@grpc/proto-loader": "^0.8.0",
+    "mongoose": "^8.3.1"
+  }
+}
