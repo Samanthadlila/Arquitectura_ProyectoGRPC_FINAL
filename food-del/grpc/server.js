@@ -2,6 +2,8 @@ import grpc from "@grpc/grpc-js";
 import protoLoader from "@grpc/proto-loader";
 import path from "path";
 import { fileURLToPath } from "url";
+import dotenv from "dotenv";
+dotenv.config();
 
 import { connectDB } from "../backend/config/db.js";
 import Food from "../backend/models/foodModel.js";
