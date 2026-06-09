@@ -39,6 +39,9 @@ http://localhost:4000/api/food/list
 
 La aplicación utiliza MongoDB Atlas para almacenar usuarios, productos y pedidos.
 
+
+
+
 ## Tecnologías Utilizadas
 
 * React
