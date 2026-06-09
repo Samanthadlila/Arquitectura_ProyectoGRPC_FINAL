@@ -39,6 +39,15 @@ http://localhost:4000/api/food/list
 
 La aplicación utiliza MongoDB Atlas para almacenar usuarios, productos y pedidos.
 
+## URL PUBLICA
+
+Backend
+https://arquitectura-backend-ixbe.onrender.com/
+
+front
+https://arquitectura-frontend.onrender.com
+
+Admin
 
 
 
